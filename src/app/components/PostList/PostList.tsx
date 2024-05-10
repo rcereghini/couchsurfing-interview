@@ -1,10 +1,11 @@
 import React from 'react'
-import PostProps from '../Post/Post'
+import { User, PostProps } from '../Post/Post'
 import Post from '../Post/Post'
 import styles from './postList.module.css'
 
 interface PostListProps {
-    posts: PostProps[]
+    posts: PostProps[];
+    users: User[];
 }
 
 const PostList: React.FC<PostListProps> = ({posts, users}) => {

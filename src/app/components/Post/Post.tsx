@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./post.module.css";
 import Link from "next/link";
 
-interface User {
+export interface User {
   id: string;
   name: string;
   userName: string;
@@ -11,22 +11,23 @@ interface User {
 export interface PostProps {
   poster: string;
   posterUserName: string;
-  post: string;
+  message: string;
   users: User[];
+  id: string;
   views: number;
   isDetailedView: boolean;
 }
 
 const MAX_MESSAGE_CHARACTER_LENGTH = 250;
 
-const truncateMessage = (message) => {
+const truncateMessage = (message: string) => {
   return (message.length > MAX_MESSAGE_CHARACTER_LENGTH) ? `${message.substring(0, MAX_MESSAGE_CHARACTER_LENGTH)}...` : message;
 }
 
 const Post: React.FC<PostProps> = (props) => {
   const { poster, posterUserName, message, id, users, views, isDetailedView } = props;
 
-  const postAuthor = users.find((user) => poster === user.id)
+  const postAuthor = users.find((user) => poster === user.id) || {id: "", name: "", userName: ""}
 
   return (
     <div className={styles.post}>
