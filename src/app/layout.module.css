@@ -1,0 +1,11 @@
+.childrenContainer {
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+
+@media (max-width: 768px) {
+
+}

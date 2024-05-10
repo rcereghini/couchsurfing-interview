@@ -1,0 +1,69 @@
+{
+    "user": {
+        "name": "Robert Cereghini",
+        "userName": "rcereghini",
+        "followers": ["1", "2"],
+        "following": ["2", "1", "3"],
+        "bio": "Just a developer looking to solve technical problems."
+    },
+    "posts": [
+        {
+            "id": "4",
+            "poster": "2",
+            "message": "Hey, where can I find a great taco shop?",
+            "views": 32
+        },
+        {
+            "id": "2",
+            "poster": "4",
+            "message": "Hello everyone!",
+            "views": 12
+        },
+        {
+            "id": "3",
+            "poster": "2",
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit ante in est dapibus, vehicula porttitor mauris commodo. Sed et convallis lectus. Maecenas nec placerat quam, vitae cursus nisl. Donec vestibulum nisi turpis, non fringilla est ultricies malesuada. Duis consequat odio sed nunc mattis tempus. Integer hendrerit nisi sem, in semper orci eleifend quis. Maecenas ac fermentum libero, id egestas ligula. Aliquam commodo maximus nibh, quis fermentum sapien aliquam rhoncus. Duis ultrices enim in diam efficitur semper. Phasellus rhoncus, turpis non mattis dapibus, quam ligula varius quam, vitae sollicitudin justo sapien tempor metus. Nunc scelerisque turpis augue, in molestie tortor euismod quis.",
+            "views": 24
+        },
+        {
+            "id": "4",
+            "poster": "3",
+            "message": "See you later space cowboy...",
+            "views": 55
+        },
+        {
+            "id": "5",
+            "poster": "4",
+            "message": "Hello!",
+            "views": 2
+        },
+        {
+            "id": "6",
+            "poster": "1",
+            "message": "Never give up!",
+            "views": 132
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "name": "Uzumaki Naruto",
+            "userName": "LeafVillager"
+        },
+        {
+            "id": "2",
+            "name": "Indiana Jones",
+            "userName": "jones"
+        },
+        {
+            "id": "3",
+            "name": "Spike Spiegel",
+            "userName": "Bebop"
+        },
+        {
+            "id": "4",
+            "name": "Harley Quinn",
+            "userName": "harleyQ"
+        }
+    ]
+}
